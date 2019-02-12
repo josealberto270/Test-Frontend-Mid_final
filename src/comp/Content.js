@@ -97,7 +97,7 @@ class Pokemon extends Component{
       <tr key={key}>
         <td>{pokemon.id}</td>
         <td>{pokemon.name}</td>
-        <td><img src={pokemon.sprite} alt={key}></td>
+        <td><img src={pokemon.sprite} alt={key}/></td>
         <td>{pokemon.height}</td>
         <td>{pokemon.weight}</td>
         <td>{pokemon.mo}</td>
