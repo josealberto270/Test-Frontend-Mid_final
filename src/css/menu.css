@@ -1,0 +1,17 @@
+.primary{
+	background-color: #5F4B8B !important;
+}
+.logoneg{
+	width: 150px;
+	margin: 0 auto;
+	margin-bottom: 10%;
+}
+.Menuizq {
+  width: 25% !important;
+}
+.fa-circle{
+	display: none;
+}
+.nav-item{
+	font-size: 12px;
+}
