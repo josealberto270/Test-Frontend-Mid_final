@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logomin from '../images/ico.png';
-import logonom from '../images/logotipo_normal950.png';
+import logonom from '../images/logotipo_normal.png';
 import logoneg from '../images/logotipo_neg.png';
 import '../css/menu.css';
 
