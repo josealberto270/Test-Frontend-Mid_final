@@ -94,14 +94,14 @@ class Pokemon extends Component{
   render(){
     const {pokemon,key} = this.props;
     return (
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+      <tr key={key}>
+        <td>{pokemon.id}</td>
+        <td>{pokemon.name}</td>
+        <td><img src={pokemon.sprite} alt={key}></td>
+        <td>{pokemon.height}</td>
+        <td>{pokemon.weight}</td>
+        <td>{pokemon.mo}</td>
+        <td>{pokemon.base_experience}</td>
       </tr>
     )
   }
